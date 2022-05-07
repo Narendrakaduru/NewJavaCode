@@ -47,11 +47,6 @@ pipeline {
       }
     }
 
-    stage('Deploy To Docker') {
-      steps {
-        sh 'docker build -t narendra8686/my-app:1.0.0 .'
-      }
-    }
 
   }
   environment {
